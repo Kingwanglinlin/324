@@ -1,0 +1,177 @@
+.xiaoniao-box{
+    width: 100%;
+    background: #f1f2f6;
+}
+.xiaoniao{
+    width: 1100px;
+    margin: 0 auto;
+}
+.mokuai{
+    width: 280px;
+    margin: 65px auto;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.mokuai h1{
+    font-size: 50px;
+    color: #39327f;
+}
+.mokuai p{
+    font-size: 14px;
+    color: #39327f;
+    word-spacing: 2px;
+    line-height: 20px;
+
+}
+
+.biao{
+    width: 1100px;
+    height: 80px;
+    background: url("../images/pen_line_long.png") no-repeat;
+    background-position:0 bottom;
+    position: relative;
+}
+.biao p{
+    color: #311759;
+    font-size: 30px;
+}
+.biao .pen{
+    width: 61px;
+    height: 58px;
+    background: url("../images/pen_list.png") no-repeat;
+    background-position:0 0 ;
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+}
+.biao em:hover{
+    background-position:-62px 0;
+}
+
+
+
+
+
+.cent{
+    width: 1100px;
+    margin: 40px auto;
+}
+.artticleList{
+    width: 1100px;
+}
+.box{
+    width: 485px;
+    height: 160px;
+    padding: 40px 20px;
+    background: white;
+    margin: 0 10px 30px 10px;
+    border: 1px solid transparent;
+    float: left;
+    position: relative;
+    transition: all 0.3s;
+
+}
+.box img{
+    display: block;
+    width: 260px;
+    height: 170px;
+    float: left;
+}
+.sanjiao{
+    width: 0;
+    height: 0;
+    border-color: white transparent transparent transparent;
+    border-style: dashed;
+    border-width: 10px;
+    position: absolute;
+    left: 0;
+    top: 40px;
+    transition: all .5s;
+}
+.box:hover{
+    border-color: black;
+    transform:translate(0,-20px);
+}
+.box:hover .sanjiao{
+    left: 100px;
+}
+.cent .box .text{
+    width: 210px;
+    padding: 15px;
+    padding-right: 0;
+    color: #454548;
+    line-height: 25px;
+
+    float: left;
+}
+.cent .box .text h5{
+    color: #454548;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.cent .box .text span{
+    display: block;
+    font-size: 12px;
+}
+.cent .box .text p{
+    font-size: 14px;
+}
+.cent .bottom{
+    width: 1100px;
+    margin: 0 auto;
+}
+.cent .bottom img{
+    display: block;
+    margin: 0 auto;
+}
+
+.cent .bottom  em{
+    display: block;
+    width: 58px;
+    height: 58px;
+    background: url("../images/lis_more_btn_bg.png") no-repeat;
+    background-position: 0 -59px;
+    transition: all 0.5s;
+    margin: 15px auto;
+}
+.cent .bottom  em:hover{
+    background-position-y:0 ;
+}
+.bot{
+    width: 100%;
+    height: 33px;
+    background: url("../images/map_bottomimg.png") no-repeat 50% 0;
+}
+/*==========返回顶部开始=============*/
+.back{
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    height: 200px ;
+    width: 90px;
+    display: none;
+}
+.img1{
+    width: 90px;
+    height: 87px;
+    background: url("../images/fixed_contactus.png") no-repeat;
+    background-position: right;
+    transition: all 0.5s;
+    margin-top: 50px;
+    float: right;
+
+}
+.img1:hover{
+    width: 235px;
+}
+.img2{
+    width: 90px;
+    height: 50px;
+    background: url("../images/scroll_top_bg.png") no-repeat;
+    background-position: 17px 0;
+    float: right;
+}
+.img2:hover{
+    background-position: 17px -50px;
+}

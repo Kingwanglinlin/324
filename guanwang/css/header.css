@@ -1,0 +1,106 @@
+.header_box{
+    width: 100%;
+    height: 126px;
+    background: url(../images/yinyue_bg.jpg);
+}
+.header{
+    width: 1100px;
+    height: 126px;
+    margin: 0 auto;
+    /*background: paleturquoise;*/
+}
+.header .logo{
+    width:359px ;
+    height: 126px;
+    float: left;
+    margin-left: 18px;
+}
+.header .ul1{
+    height: 126px;
+    float: right;
+    margin-right: 32px;
+}
+.header .ul1>li{
+    width: 63px;
+    height: 25px;
+    float: left;
+    color: white;
+    margin-left: 25px;
+    margin-top: 52px;
+    line-height: 25px;
+    cursor: pointer;
+}
+.header .ul1>li h5{
+    font-size: 15px;
+}
+.header .ul1>.li1{
+    width: 33px;
+    position: relative;
+}
+.header .ul1>.li1>img{
+    position:absolute;
+    top:30px;
+    left:50%;
+    margin-left: -2px;
+}
+.header .ul1>.li2{
+    width: 97px;
+    position: relative;
+    padding-bottom:10px;
+}
+.header .ul1>.li2>span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url(../images/nav_xiajiantou.png);
+    position: absolute;
+    top:0;
+    right: 0;
+    cursor: pointer;
+}
+.header .ul1>.li2:hover span{
+    background: url(../images/nav_xiajiantou_hover.png);
+}
+.header .ul1>.li2>img{
+    position:absolute;
+    top:30px;
+    left:50%;
+    margin-left: -2px;
+    display: none;
+}
+.header .ul1>.li2:hover  img{
+    display: block;
+}
+.header .ul1>.li2>.ul2{
+    width: 150px;
+    height: 240px;
+    background: #37274b;
+    position: absolute;
+    top:100%;
+    left:-25px;
+    display: none;
+    z-index: 8;
+}
+.header .ul1>.li2>.ul2>li{
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+}
+.header .ul1>.li2>.ul2>li p{
+    padding-left: 20px;
+}
+.header .ul1>.li2>.ul2>li>img{
+    position: absolute;
+    top:16px;
+    right:10px;
+}
+.header .ul1>.li2>.ul2>li:hover{
+    background: #009DEA;
+}
+.header .ul1>.li2>.ul2>li:hover p{
+    padding-left: 40px;
+}
+.header .ul2.on{
+    display: block;
+}

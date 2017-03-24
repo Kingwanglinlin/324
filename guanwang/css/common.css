@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    border: none 0;
+}
+em{
+    font-style: normal;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+ul li{
+    list-style: none;
+}
+body{
+    /*font-family: stkaiti,KaiTi_GB2312,"华文楷体","宋体",Arial;*/
+    font-family: "楷体";
+    font-size: 15px;
+    background: #f1f2f6;
+}
+.mokuai{
+    width: 280px;
+    margin: 0px auto;
+    padding: 65px 0;
+    text-align: center;
+}
+.mokuai h1{
+    font-size: 50px;
+    color: #39327f;
+}
+.mokuai p{
+    font-size: 14px;
+    color: #39327f;
+    word-spacing: 2px;
+    line-height: 20px;
+
+}

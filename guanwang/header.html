@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/header.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		<script>
+			$(function(){
+				$(".ul1 .li2").hover(
+
+						function(){
+							$(this).find(".ul2").stop(true).slideDown(500,"bounceBoth");
+						},
+						function(){
+							$(this).find(".ul2").stop(true).slideUp(500);
+						}
+				)
+				$(".dongtai").delegate("h5","click",function(){
+					window.open("lis.html");
+				});
+				$(".li1").delegate("h5","click",function(){
+					window.open("index.html?");
+				});
+			})
+		</script>
+	</head>
+	<body>
+		<div class="header_box">
+			<div class="header">
+			  <div class="logo">
+			     <a href=""><img src="images/logo.png" alt="" /></a>
+		      </div>
+		      <ul class="ul1">
+		      	<li class="li1"><h5>首页</h5><img src="images/nav_now_bg.png" alt="" /></li>
+		      	<li class="li2">
+		      		<h5>小鸟掌学</h5>
+		      		<span></span>
+		      		<img src="images/nav_now_bg.png" alt="" />
+		      		<ul class="ul2">
+		      			<li onclick="javascript:window.open('aboutxiaoniao.html','_self')"><p>学习主页</p><img src="images/nav_li_bg.png" alt="" /></li>
+		      			<li onclick="javascript:window.open('aboutxiaoniao.html#1')"><p>小鸟掌学概述</p><img src="images/nav_li_bg.png" alt="" /></li>
+		      			<li onclick="javascript:window.open('aboutxiaoniao.html#2')"><p>对企业的价值</p><img src="images/nav_li_bg.png" alt="" /></li>
+		      			<li onclick="javascript:window.open('aboutxiaoniao.html#3')"><p>小鸟掌云</p><img src="images/nav_li_bg.png" alt="" /></li>
+		      			<li><p>微客联盟</p><img src="images/nav_li_bg.png" alt="" /></li>
+		      			<li onclick="javascript:window.open('aboutxiaoniao.html#4')"><p>App下载</p><img src="images/nav_li_bg.png" alt="" /></li>
+		      		</ul>
+		      	</li>
+		      	<li class="dongtai"><h5>小鸟动态</h5></li>
+		      	<li class="li2">
+		      		<h5>企业文化</h5>
+		      		<span></span>
+		      		<img src="images/nav_now_bg.png" alt="" />
+		      		<ul class="ul2" style="height: 120px;"> 
+		      			<li onclick="javascript:window.open('article.html?type=companyIdea','_self')"><p>公司理念</p><img src="images/nav_li_bg.png" alt="" /></li>
+		      			<li onclick="javascript:window.open('article.html?type=companyCulture','_self')"><p>公司文化</p><img src="images/nav_li_bg.png" alt="" /></li>
+		      			<li onclick="javascript:window.open('article.html?type=companyEnvironment','_self')"><p>公司氛围</p><img src="images/nav_li_bg.png" alt="" /></li>
+		      		</ul>
+		      	</li>
+		      	<li class="li2">
+		      		<h5>人力资源</h5>
+		      		<span></span>
+		      		<img src="images/nav_now_bg.png" alt="" />
+		      		<ul class="ul2" style="height: 120px;">
+		      			<li onclick="javascript:window.open('article.html?type=talents','_self')"><p>人才理念</p><img src="images/nav_li_bg.png" alt="" /></li>
+		      			<li onclick="javascript:window.open('article.html?type=team','_self')"><p>团队介绍</p><img src="images/nav_li_bg.png" alt="" /></li>
+		      			<li onclick="javascript:window.open('article.html?type=joinUs','_self')"><p>招聘信息</p><img src="images/nav_li_bg.png" alt="" /></li>
+		      		</ul>
+		      	</li>
+		      	<li onclick="javascript:window.open('article.html?type=telUs')"><h5>联系我们</h5></li>
+		      </ul>
+		    </div>
+		</div>
+
+	</body>
+</html>

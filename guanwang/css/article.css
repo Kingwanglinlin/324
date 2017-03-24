@@ -1,0 +1,158 @@
+.cent-box {
+    width: 100%;
+    position: relative;
+}
+.cent{
+    width: 1100px;
+    margin: 0 auto;
+    background: white;
+}
+
+
+.text{
+    width: 725px;
+    padding: 15px;
+    padding-right: 0;
+    color: #454548;
+    line-height: 60px;
+}
+.text h5{
+    color: #420e8c;
+    font-size: 26px;
+    font-weight: 400;
+    border-bottom: 2px solid #9d9ca2;
+
+}
+ .text span{
+    font-size: 14px;
+     color: #73787c;
+}
+.pic{
+    width: 950px;
+    text-align: center;
+    height: 220px;
+    padding: 25px;
+}
+.pic img{
+    width: 100%;
+    height: 100%;
+}
+.neirong{
+    width: 1000px;
+    margin: 0 auto;
+
+}
+.neirong h5{
+    font-size: 20px;
+    color: #111111;
+    padding-top: 30px;
+    font-weight: 400;
+}
+.neirong p{
+    font-size: 14px;
+    padding-top: 25px;
+    line-height: 25px;
+}
+.shoucang{
+    width: 200px;
+    margin: 0 auto;
+    position: relative;
+    height: 200px;
+}
+.tu{
+    width:73px;
+    height: 73px;
+    background: url("../images/article_iflike.png") no-repeat;
+    background-position:0 0;
+    margin: 0 auto;
+    transition: all 0.5s;
+}
+.active{
+    animation: myframe1  .5s;
+}
+
+.biao{
+    position: absolute;
+    width: 0px;
+    height: 35px;
+    overflow: hidden;
+    background: url("../images/article_iflike_nomberbg.png")no-repeat 0 0;
+    left: 140px;
+    top: 36px;
+    margin-top: -17px;
+    transition: all .5s;
+    color: white;
+    font-size: 14px;
+    line-height: 35px;
+}
+.like_tip-wap{
+    width: 100%;
+    margin-top: 30px;
+    height: 50px;
+    position: relative;
+}
+.like_tips{
+   width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #1b1b1b;
+    background: #f1f1f1;
+    position: absolute;
+    top:300px;
+    left: 0px;
+    opacity: 0;
+}
+@keyframes myframe1{
+    from{
+        transform: scale(1.2,0.8);
+    }
+    30%{
+        transform: scale(0.5,1.1);
+    }
+    60%{
+        transform: scale(0.75,1.2);
+    }
+    to{
+        transform:scale(1,1) ;
+    }
+}
+
+.back{
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    height: 200px ;
+    width: 90px;
+    display: none;
+}
+.img1{
+    width: 90px;
+    height: 87px;
+    background: url("../images/fixed_contactus.png") no-repeat;
+    background-position: right;
+    transition: all 0.5s;
+    margin-top: 50px;
+    float: right;
+
+}
+.img1:hover{
+    width: 235px;
+}
+.img2{
+    width: 90px;
+    height: 50px;
+    background: url("../images/scroll_top_bg.png") no-repeat;
+    background-position: 17px 0;
+    float: right;
+}
+.img2:hover{
+    background-position: 17px -50px;
+}
+.botom{
+    width: 100%;
+    height: 33px;
+    background: url("../images/map_bottomimg.png")no-repeat 50% 0;
+    position: absolute;
+    bottom: 0px;
+}

@@ -1,0 +1,329 @@
+.top-box{
+    width: 100%;
+    height: 50px;
+    background: url("../images/aboutxiaoniao/beader_bg.jpg") no-repeat 0 0;
+}
+.top{
+    width: 1100px;
+    margin: 0 auto;
+}
+.logo{
+    float: left;
+}
+.nar{
+    float: left;
+    padding-left: 40px ;
+
+}
+.nar li{
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    padding: 0 15px;
+    font-size: 14px;
+    color: #afabb6;
+    background: url("../images/nav_now_bg.png")no-repeat ;
+    background-position: 0 0;
+}
+.top .nar .now{
+    color: white;
+    background-position: 50% bottom
+}
+.nar .li2{
+    background-position: -10px 0;
+    transition: background-position .8s;
+}
+
+.welcome_warp{
+    padding-top: 50px;
+    position: absolute;
+    top:0px;
+    background:#299ad6;
+    z-index: 10;
+}
+.about-box{
+    height: 100%;
+    position: relative;
+}
+.welcome_warp .welcome_animate{
+    display: none;
+}
+.gif{
+    width: 400px;
+    height: 350px;
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -200px ;
+    top:50%;
+    margin-top: -175px;
+}
+.box{
+    padding-top: 350px;
+    margin: 0 auto;
+    text-align: center;
+}
+.gif img{
+    position: relative;
+    top: -20px;
+}
+.title{
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+.title h1{
+font-size: 40px;
+}
+.title p{
+    font-size: 16px;
+    word-spacing: -3px;
+}
+.kouhao {
+    color: white;
+    text-align: center;
+    position: relative;
+    width: 470px;
+    margin: 0 auto;
+    font-size: 48px;
+    padding:  15px 0;
+}
+.kouhao img{
+   position: absolute;
+}
+.kouhao .img1{
+    left: 0;
+    top: 10px;
+}
+.kouhao .img2{
+right: 0;
+    bottom: 10px;
+}
+.welcome_warp p{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    line-height: 21px;
+}
+.text{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    line-height: 21px;
+}
+.about-bot{
+    display: block;
+    margin: 0 auto;
+    width: 58px;
+    height: 58px;
+    background: url("../images/aboutxiaoniao/donext.png") no-repeat 0 -58px ;
+    margin-top: 15px ;
+}
+/*概述开始*/
+#bannerBox .now{
+    opacity: 0.5;
+}
+.prev{
+    width: 58px;
+    height: 58px;
+    background: url("../images/aboutxiaoniao/goleft.png") no-repeat;
+    background-position: 0 0;
+    position: absolute;
+    left: 5%;
+    top:50%;
+    margin-top: -29px;
+    z-index:999;
+}
+.prev:hover{
+    background-position: -58px 0;
+}
+ .next{
+    width: 58px;
+    height: 58px;
+    background: url("../images/aboutxiaoniao/goright.png") no-repeat;
+    background-position: -58px 0;
+    position: absolute;
+    right: 5%;
+    top:50%;
+    margin-top: -29px;
+    z-index:999;
+}
+.next:hover{
+    background-position: 0 0;
+}
+
+.big{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.big .banner{
+    float: left;
+}
+.gaishu1{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.gaishu1 h1{
+    color: #2d236a;
+    font-size: 52px;
+}
+.gaishu1 .kouhao{
+    position: relative;
+    text-align: center;
+    width: 630px;
+    padding:15px 25px ;
+    color: #606163;
+    font-size: 18px;
+    line-height: 25px;
+}
+.pic1{
+margin: 0 auto;
+    text-align: center;
+}
+.pic img{
+    padding:15px;
+}
+.gaishu2 h2,.gaishu3 h2{
+text-align: center;
+    padding: 10px 0;
+}
+.gaishu2 .txt{
+    padding-top: 40px;
+    width: 700px;
+    margin: 0 auto;
+    color: #6b6a6f;
+    text-align: left;
+}
+.gaishu2 .txt p{
+    padding-top: 30px;
+    float: right;
+    width: 500px;
+    font-size: 22px;
+}
+.gaishu2 .txt span{
+    display: block;
+    font-size: 16px;
+}
+.gaishu3 .txt{
+    margin: 0 auto;
+    width: 730px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #6b6a6f;
+    text-indent: 2em;
+    padding: 45px 0;
+}
+/*公司价值*/
+.jiazhi{
+    width: 100%;
+    height: 100%;
+}
+
+.jiazhi h1{
+    height: 110px;
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    line-height: 110px;
+}
+.jiazhi .box1{
+    position: relative;
+    margin: 0 auto;
+    width: 840px;
+}
+.jiazhi img{
+    position: absolute;
+}
+.jiazhi .text{
+    width: 420px;
+    height: 74px;
+    float: left;
+    padding: 23px 0;
+}
+.jiazhi .text em{
+    width: 74px;
+    height: 74px;
+    background: url("../images/aboutxiaoniao/jiazhi_quanquan.png") no-repeat 0 0;
+    line-height: 74px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+.jiazhi .text p{
+    text-align: left;
+    color: white;
+    font-size: 16px;
+    padding: 30px 30px 0 0;
+    width: 270px;
+    float: right;
+}
+/*app下载  联系我们开始*/
+.last{
+    height: 100%;
+    background: url("../images/aboutxiaoniao/app&contacts.jpg") no-repeat 50% 0;
+}
+.zhangxue{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.zhangxue .but{
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    margin-left: -102px;
+    text-align: center;
+}
+.zhangxue span{
+    display: inline-block;
+    margin: 0 10px;
+    width: 78px;
+    height: 8px;
+    background: url("../images/aboutxiaoniao/xiaoniaoyun_btn.png") no-repeat ;
+    background-position: 0 -8px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.zhangxue span em{
+    width: 78px;
+    height: 8px;
+    background: url("../images/aboutxiaoniao/xiaoniaoyun_btn.png") no-repeat ;
+    background-position: 0 0;
+    cursor: pointer;
+    position: absolute;
+}
+.zhangxue span .em1{
+    left: 0;
+}
+.zhangxue span .em2{
+    left: -78px;
+}
+.wrap_block .zhangxue span .active{
+    left: 0;
+}
+.zhangxue h1{
+    line-height: 110px;
+    height: 110px;
+    text-align: center;
+    color: #33257c;
+    font-size: 45px;
+}
+.zhangxue .box2{
+    width: 915px;
+    margin: 0 auto;
+    background: url("../images/aboutxiaoniao/xuxian_bg.png")repeat 0 0 ;
+    display: none;
+}
+.zhangxue .box2 p{
+    line-height: 36px;
+    font-size: 16px;
+    color: #525254;
+}
+.wrap_block .zhangxue .now{
+    display: block;
+}

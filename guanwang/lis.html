@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/lis.css">
+    <link rel="stylesheet" href="css/common.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/move.js"></script>
+    <script src="js/lis.js"></script>
+    <script src="js/listData.js"></script>
+</head>
+<body>
+<div id="header"></div>
+<div class="xiaoniao-box">
+    <div class="xiaoniao">
+    <div class="mokuai">
+        <h1>小鸟动态</h1>
+        <p>A b o u t&nbsp;&nbsp;C o m p a n y</p>
+        <p>
+            <img src="images/three_points01.png" alt="">
+        </p>
+    </div>
+    <div class="biao">
+        <p>列表</p>
+        <em class="pen"></em>
+    </div>
+    <div class="cent">
+        <!--模版-->
+        <div id="itemHTML" style="display: none;">
+            <div class="box" articleid="$articleId$">
+                <img src="$articleCover$" alt="">
+                <div class="text">
+                    <h5>$articleTitle$</h5>
+                    <span>$updateTime$</span>
+                    <p>$descride$</p>
+                </div>
+                <div class="sanjiao"></div>
+            </div>
+        </div>
+        <!--模版结束-->
+        <div class="articleList" id="articleList">
+        <!--<div class="box">-->
+        <!--<img src="images/list_img01.jpg" alt="">-->
+        <!--<div class="text">-->
+            <!--<h5>胜林三镜重装出发</h5>-->
+            <!--<span>2016-02-02</span>-->
+            <!--<p>-->
+                <!--小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台。-->
+            <!--</p>-->
+        <!--</div>-->
+            <!--<div class="sanjiao"></div>-->
+        <!--</div>-->
+        <!--<div class="box">-->
+            <!--<img src="images/list_img02.jpg" alt="">-->
+            <!--<div class="text">-->
+                <!--<h5>小鸟掌学开通国外渠道</h5>-->
+                <!--<span>2016-02-02</span>-->
+                <!--<p>-->
+                    <!--小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台。-->
+                <!--</p>-->
+            <!--</div>-->
+            <!--<div class="sanjiao"></div>-->
+        <!--</div>-->
+        <!--<div class="box">-->
+            <!--<img src="images/list_img03.jpg" alt="">-->
+            <!--<div class="text">-->
+                <!--<h5>胜林三镜天气app上线</h5>-->
+                <!--<span>2016-02-02</span>-->
+                <!--<p>-->
+                    <!--小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台。-->
+                <!--</p>-->
+            <!--</div>-->
+            <!--<div class="sanjiao"></div>-->
+        <!--</div>-->
+        <!--<div class="box">-->
+            <!--<img src="images/list_img04.jpg" alt="">-->
+            <!--<div class="text">-->
+                <!--<h5>国外报道</h5>-->
+                <!--<span>2016-02-02</span>-->
+                <!--<p>-->
+                    <!--小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台。-->
+                <!--</p>-->
+            <!--</div>-->
+            <!--<div class="sanjiao"></div>-->
+        <!--</div>-->
+        <!--<div class="box">-->
+            <!--<img src="images/list_img01.jpg" alt="">-->
+            <!--<div class="text">-->
+                <!--<h5>胜林三镜重装出发</h5>-->
+                <!--<span>2016-02-02</span>-->
+                <!--<p>-->
+                    <!--小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台。-->
+                <!--</p>-->
+            <!--</div>-->
+            <!--<div class="sanjiao"></div>-->
+        <!--</div>-->
+        <!--<div class="box">-->
+            <!--<img src="images/list_img02.jpg" alt="">-->
+            <!--<div class="text">-->
+                <!--<h5>小鸟掌学开通国外渠道</h5>-->
+                <!--<span>2016-02-02</span>-->
+                <!--<p>-->
+                    <!--小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台。-->
+                <!--</p>-->
+            <!--</div>-->
+            <!--<div class="sanjiao"></div>-->
+        <!--</div>-->
+        <!--<div class="box">-->
+            <!--<img src="images/list_img03.jpg" alt="">-->
+            <!--<div class="text">-->
+                <!--<h5>胜林三镜天气app上线</h5>-->
+                <!--<span>2016-02-02</span>-->
+                <!--<p>-->
+                    <!--小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台。-->
+                <!--</p>-->
+            <!--</div>-->
+            <!--<div class="sanjiao"></div>-->
+        <!--</div>-->
+        <!--<div class="box">-->
+            <!--<img src="images/list_img04.jpg" alt="">-->
+            <!--<div class="text">-->
+                <!--<h5>国外报道</h5>-->
+                <!--<span>2016-02-02</span>-->
+                <!--<p>-->
+                    <!--小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台。-->
+                <!--</p>-->
+            <!--</div>-->
+            <!--<div class="sanjiao"></div>-->
+        <!--</div>-->
+        </div>
+        <div style="clear: both"></div>
+        <div class="bottom" >
+            <img class="more" src="images/list_gomore_bg.jpg" alt="">
+            <img class="none"  style="display: none;" src="images/list_gomore_bg_nomore.jpg" alt="">
+            <em id="listmore"></em>
+        </div>
+
+    </div>
+    </div>
+    <div class="bot"></div>
+</div>
+<div class="back">
+    <div class="img2"></div>
+    <div class="img1"></div>
+
+</div>
+<div id="footer"></div>
+</body>
+</html>
